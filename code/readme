@@ -1,0 +1,30 @@
+1. Requirements
+Code is written in python2.7. You will need it in order to run the code.
+
+2. Dependency
+You need following python packages for running the code.
+	os
+	sys
+	cPickle
+	numpy
+	re
+	spacy
+	nltk
+	sklearn
+Do "pip install <packagename>" to install them.
+
+3. NLP resources
+Model extracts features using existing NLP models.
+Make sure you have following datasets:
+	nltk : wordnet
+	nltk : stemming
+	spacy : run "python -m spacy.en.download all"
+
+4. Reproducing Results (Make sure the project folder is your current directory.)
+	1. cd into the project_folder.
+	2. run "python qlearn.py".
+	3. It will generate results in output folder.
+
+In case of IO-error:
+Open qlearn.py. 
+Set path to data and synonyms directory properly.
